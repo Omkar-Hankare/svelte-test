@@ -22,7 +22,7 @@ FROM build AS development
 EXPOSE 3500
 
 # Start dev server
-CMD ["npm", "run", "dev", "--poll"]
+CMD ["npm", "run", "dev"]
 
 # Production stage
 FROM build AS production
